@@ -1,0 +1,8 @@
+body {
+  height: 100%;
+  margin: 0;
+  background: #45b39d;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,32 @@
+.site-header {
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #45b39d;
+  z-index: 10;
+}
+
+.site-header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.site-header__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__nav ul > li {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.site-header__nav ul > li:hover {
+  color: #ddd;
+}

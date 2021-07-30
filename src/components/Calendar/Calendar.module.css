@@ -1,0 +1,16 @@
+.calendar {
+  display: flex;
+  width: 720px;
+  height: 720px;
+  margin: 0px 10px 0px 10px;
+  border: 1px solid #45b39d;
+  background: white;
+}
+
+.hour-div {
+  width: 100px;
+  height: 60px;
+  color: white;
+  background: #45b39d;
+  text-align: center;
+}
