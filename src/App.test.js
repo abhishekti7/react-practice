@@ -1,5 +1,5 @@
 import React from 'react';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, wait } from '@testing-library/react';
 import App from './App';
 
 let appComponent;
@@ -8,6 +8,7 @@ beforeEach(() => {
   window.fetch.mockResolvedValueOnce({
     json: async () => [{ title: 'A', start: '0900', end: '1100' }],
   });
+  wait();
   appComponent = render(<App />);
 });
 
